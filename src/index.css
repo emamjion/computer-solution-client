@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+
+
+
+/* header active link design */
+nav ul li a.active{
+    color: #A1C058;
+    border-bottom: 1px solid #A1C058;
+}
