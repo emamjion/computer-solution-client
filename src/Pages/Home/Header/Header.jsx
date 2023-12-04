@@ -15,7 +15,7 @@ const Header = () => {
     ]
     
     return (
-        <nav className={`md:flex items-center justify-between py-4 md:px-10 px-7 md:mx-[240px]`}>
+        <nav className={`md:flex items-center justify-between py-4 md:px-10 px-2 md:mx-[240px]`}>
             <Link to='/' className='flex items-center md:gap-3 gap-1'>
                 <img src={logo} className='w-12' />
                 <h1 className='text-2xl font-bold'>Computer Solution<span className='text-[#A1C058]'>.</span></h1>
