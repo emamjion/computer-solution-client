@@ -74,6 +74,7 @@ const Footer = () => {
                     <span className='text-[#a1c058] text-2xl'>< FaInstagram /></span>
                     <span className='text-[#a1c058] text-2xl'>< FaTwitter /></span>
                 </div>
+                
             </div>
         </footer>
     );
