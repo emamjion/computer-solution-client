@@ -14,14 +14,14 @@ const OurBlog = () => {
                 <h3 className='text-xl font-medium mb-3 text-[#a1c058]'>Our Blog</h3>
                 <h1 className='text-3xl font-bold mb-4'>Latest News & Blog<span className='text-[#a1c058]'>.</span></h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:mt-10'>
                 {
                     blogs.map(blog => <div
                         key={blog.id}
                         className=''
                     >
-                        <div className='shadow-2xl p-8 rounded'>
-                            <img src={blog.image} className='rounded' />
+                        <div className='shadow-2xl p-8 rounded hover:-translate-y-4 duration-500'>
+                            <img src={blog.image} className='rounded hover:scale-105 duration-500' />
                             <div className='mt-4'>
                                 <h1 className='font-semibold text-xl mb-4'>{blog.title}</h1>
                                 <p className='text-[#949394]'>
