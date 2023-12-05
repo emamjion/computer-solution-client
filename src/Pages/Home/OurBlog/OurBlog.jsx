@@ -10,15 +10,16 @@ const OurBlog = () => {
     
     return (
         <section className='py-8 md:py-24 md:px-10 px-7 md:mx-[240px]'>
-            <div>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 <h3 className='text-xl font-medium mb-3 text-[#a1c058]'>Our Blog</h3>
                 <h1 className='text-3xl font-bold mb-4'>Latest News & Blog<span className='text-[#a1c058]'>.</span></h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:mt-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:mt-10' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 {
                     blogs.map(blog => <div
                         key={blog.id}
                         className=''
+                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                     >
                         <div className='shadow-2xl p-8 rounded hover:-translate-y-4 duration-500'>
                             <img src={blog.image} className='rounded hover:scale-105 duration-500' />

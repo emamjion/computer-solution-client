@@ -7,7 +7,7 @@ import { FaStar } from "react-icons/fa";
 const WhoWe = () => {
     return (
         <section className='md:flex items-center justify-between py-8 md:py-24 md:px-10 px-7 md:mx-[240px]'>
-            <div className='md:w-1/2 relative'>
+            <div className='md:w-1/2 relative' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 <img src={aboutImg} className='rounded'/>
                 <div className='bg-[#fff] p-4 absolute -bottom-3 md:-bottom-1 right-5'>
                     <div className='flex items-center text-[#]'>
@@ -20,7 +20,7 @@ const WhoWe = () => {
                     <p className='font-medium mt-1 text-[#939493]'>Rated 5 out of 5 by our clients</p>
                 </div>
             </div>
-            <div className='md:w-1/2 mt-10 md:mt-0'>
+            <div className='md:w-1/2 mt-10 md:mt-0' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 <h3 className='text-xl font-medium mb-3 text-[#a1c058]'>Who We Are</h3>
                 <h1 className='text-3xl font-bold mb-4'>
                     We Can Solve All Types Of <br /> Computer & Laptops<span className='text-[#a1c058]'>.</span>

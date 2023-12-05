@@ -8,7 +8,7 @@ import { FaPhoneAlt, FaEnvelope, FaFacebook, FaInstagram, FaTwitter } from "reac
 const Footer = () => {
     return (
         <footer className='py-8 md:py-24 md:px-10 px-7 md:mx-[240px] bg-[#f3f3f3]'>
-            <div className='md:flex items-center justify-between'>
+            <div className='md:flex items-center justify-between' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 <div>
                     <Link to='/' className='flex items-center md:gap-3 gap-1'>
                         <img src={logo} className='w-12' />
@@ -65,7 +65,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr className='border my-6' />
-            <div className='flex items-center justify-between flex-col md:flex-row'>
+            <div className='flex items-center justify-between flex-col md:flex-row' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 <p className='font-medium'>
                     Copyright &copy; 2023 Computer Solution. Powered by Computer Solution
                 </p>

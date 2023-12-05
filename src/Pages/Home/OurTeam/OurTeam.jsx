@@ -12,7 +12,7 @@ const OurTeam = () => {
                 <h1 className='text-3xl font-bold mb-4'>Meet Our Team<span className='text-[#a1c058]'>.</span></h1>
             </div>
             <div className='md:flex items-center gap-6 md:mt-10'>
-                <div className='relative'>
+                <div className='relative' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <img src={img1} className='rounded shadow-2xl' />
                     <div className='absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center flex-col opacity-0 hover:opacity-70 bg-[#a1c058] duration-500'>
                         <h1 className='text-3xl font-semibold'>Ashis Mohon</h1>
@@ -24,7 +24,7 @@ const OurTeam = () => {
                         </div>
                     </div>
                 </div>
-                <div className='relative mt-4 md:mt-0'>
+                <div className='relative mt-4 md:mt-0' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <img src={img2} className='rounded shadow-2xl' />
                     <div className='absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center flex-col opacity-0 hover:opacity-70 bg-[#a1c058] duration-500'>
                         <h1 className='text-3xl font-semibold'>Monali Kundu</h1>
@@ -36,7 +36,7 @@ const OurTeam = () => {
                         </div>
                     </div>
                 </div>
-                <div className='relative mt-4 md:mt-0'>
+                <div className='relative mt-4 md:mt-0' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <img src={img3} className='rounded shadow-2xl' />
                     <div className='absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center flex-col opacity-0 hover:opacity-70 bg-[#a1c058] duration-500'>
                         <h1 className='text-3xl font-semibold'>Kajol Emty</h1>

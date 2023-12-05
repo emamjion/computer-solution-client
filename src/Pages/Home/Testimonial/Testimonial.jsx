@@ -13,11 +13,11 @@ const Testimonial = () => {
     
     return (
         <section className='py-8 md:py-12 md:px-16 px-7 md:mx-[240px] bg-[#f3f3f3]'>
-            <div>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 <h3 className='text-xl font-medium mb-3 text-[#a1c058]'>Testimonial</h3>
                 <h1 className='text-3xl font-bold'>What Say Our Happy Customers<span className='text-[#a1c058]'>.</span></h1>
             </div>
-            <div className='mt-10'>
+            <div className='mt-10' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 <Swiper
                     pagination={{
                     dynamicBullets: true,

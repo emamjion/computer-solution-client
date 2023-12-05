@@ -5,7 +5,7 @@ import choose2 from '../../../assets/images/chooseUs/choose2.png';
 const ChooseUs = () => {
     return (
         <section className='py-8 md:py-24 md:px-10 px-7 md:mx-[240px] flex gap-6 flex-col-reverse md:flex-row'>
-            <div className='md:w-1/2 relative'>
+            <div className='md:w-1/2 relative' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 <div  className='md:absolute -left-16 right-4 md:w-[400px]'>
                     <img src={choose1} className='rounded' />
                 </div>
@@ -13,7 +13,7 @@ const ChooseUs = () => {
                     <img src={choose2} className='rounded' />
                 </div>
             </div>
-            <div className='md:w-1/2 mt-6 md:mt-0'>
+            <div className='md:w-1/2 mt-6 md:mt-0' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 <h3 className='text-xl font-medium mb-3 text-[#a1c058]'>Why Choose Us</h3>
                 <h1 className='text-3xl font-bold'>When You Need Repair</h1>
                 <h1 className='text-3xl font-bold mb-4'>We are Always Here<span className='text-[#a1c058]'>.</span></h1>

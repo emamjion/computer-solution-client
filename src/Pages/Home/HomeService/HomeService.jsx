@@ -8,12 +8,12 @@ import { MdInstallDesktop } from "react-icons/md";
 const HomeService = () => {
     return (
         <section className='py-8 md:py-24 md:px-10 px-7 md:mx-[240px] bg-[#f3f3f3]'>
-            <div>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 <h3 className='text-xl font-medium mb-3 text-[#a1c058]'>Our Repair Services</h3>
                 <h1 className='text-3xl font-bold mb-4'>What We Offer to Our Customers<span className='text-[#a1c058]'>.</span></h1>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10'>
-                <div className='bg-[#fff] p-8 rounded shadow-lg hover:-translate-y-2 duration-500'>
+                <div className='bg-[#fff] p-8 rounded shadow-lg hover:-translate-y-2 duration-500' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <span className='text-4xl text-[#a1c058]'><FaDesktop /></span>
                     <h3 className='font-semibold text-lg my-2'>Desktop PC</h3>
                     <p className='text-[#7c7c7c] mb-4'>
@@ -21,7 +21,7 @@ const HomeService = () => {
                     </p>
                     <Link className='flex items-center gap-1 text-[#a1c058] font-medium'>Read More <span><FaAngleRight /></span></Link>
                 </div>
-                <div className='bg-[#fff] p-8 rounded shadow-lg hover:-translate-y-2 duration-500'>
+                <div className='bg-[#fff] p-8 rounded shadow-lg hover:-translate-y-2 duration-500' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <span className='text-4xl text-[#a1c058]'><GrCloudSoftware /></span>
                     <h3 className='font-semibold text-lg my-2'>Software Solution</h3>
                     <p className='text-[#7c7c7c] mb-4'>
@@ -29,7 +29,7 @@ const HomeService = () => {
                     </p>
                     <Link className='flex items-center gap-1 text-[#a1c058] font-medium'>Read More <span><FaAngleRight /></span></Link>
                 </div>
-                <div className='bg-[#fff] p-8 rounded shadow-lg hover:-translate-y-2 duration-500'>
+                <div className='bg-[#fff] p-8 rounded shadow-lg hover:-translate-y-2 duration-500' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <span className='text-4xl text-[#a1c058]'><FaVirusCovidSlash /></span>
                     <h3 className='font-semibold text-lg my-2'>Antivirous</h3>
                     <p className='text-[#7c7c7c] mb-4'>     
@@ -37,7 +37,7 @@ const HomeService = () => {
                     </p>
                     <Link className='flex items-center gap-1 text-[#a1c058] font-medium'>Read More <span><FaAngleRight /></span></Link>
                 </div>
-                <div className='bg-[#fff] p-8 rounded shadow-lg hover:-translate-y-2 duration-500'>
+                <div className='bg-[#fff] p-8 rounded shadow-lg hover:-translate-y-2 duration-500' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <span className='text-4xl text-[#a1c058]'><FaHardDrive /></span>
                     <h3 className='font-semibold text-lg my-2'>Driver Installaton</h3>
                     <p className='text-[#7c7c7c] mb-4'>
@@ -45,7 +45,7 @@ const HomeService = () => {
                     </p>
                     <Link className='flex items-center gap-1 text-[#a1c058] font-medium'>Read More <span><FaAngleRight /></span></Link>
                 </div>
-                <div className='bg-[#fff] p-8 rounded shadow-lg hover:-translate-y-2 duration-500'>
+                <div className='bg-[#fff] p-8 rounded shadow-lg hover:-translate-y-2 duration-500' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <span className='text-4xl text-[#a1c058]'><FaLaptop /></span>
                     <h3 className='font-semibold text-lg my-2'>Laptop Motherboard</h3>
                     <p className='text-[#7c7c7c] mb-4'>
@@ -53,7 +53,7 @@ const HomeService = () => {
                     </p>
                     <Link className='flex items-center gap-1 text-[#a1c058] font-medium'>Read More <span><FaAngleRight /></span></Link>
                 </div>
-                <div className='bg-[#fff] p-8 rounded shadow-lg hover:-translate-y-2 duration-500'>
+                <div className='bg-[#fff] p-8 rounded shadow-lg hover:-translate-y-2 duration-500' data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <span className='text-4xl text-[#a1c058]'><MdInstallDesktop /></span>
                     <h3 className='font-semibold text-lg my-2'>Software Installation</h3>
                     <p className='text-[#7c7c7c] mb-4'>
