@@ -21,9 +21,9 @@ const WhoWe = () => {
                 </div>
             </div>
             <div className='md:w-1/2 mt-10 md:mt-0'>
-                <h3 className='text-xl font-medium mb-3 text-[#a1c058]'>Who we are</h3>
+                <h3 className='text-xl font-medium mb-3 text-[#a1c058]'>Who We Are</h3>
                 <h1 className='text-3xl font-bold mb-4'>
-                    We Can Solve All Types Of <br /> Computer & Laptops.
+                    We Can Solve All Types Of <br /> Computer & Laptops<span className='text-[#a1c058]'>.</span>
                 </h1>
                 <p className='my-6 md:my-4 text-[#939493] leading-7'>
                     We specialize in comprehensive computer repair solutions to ensure your device runs seamlessly.Trust us to breathe new life into your system, optimizing speed and functionality. Experience top-notch customer service and competitive prices. Your satisfaction is our priority! Contact us today for efficient, affordable, and professional computer repair.
@@ -51,7 +51,7 @@ const WhoWe = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='mt-6 md:mt-4 text-center '>
+                    <div className='mt-6 md:mt-4 text-center md:text-left'>
                         <button className='px-[30px] md:px-[32px] bg-[#A1C058] py-[16px] text-white font-medium rounded hover:scale-105 duration-300'>Know More</button>
                     </div>
                 </div>
