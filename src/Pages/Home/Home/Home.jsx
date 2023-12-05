@@ -7,6 +7,7 @@ import OurProcess from '../OurProcess/OurProcess';
 import OurTeam from '../OurTeam/OurTeam';
 import ChooseUs from '../ChooseUs/ChooseUs';
 import Testimonial from '../Testimonial/Testimonial';
+import OurBlog from '../OurBlog/OurBlog';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <OurTeam/>
             <ChooseUs/>
             <Testimonial/>
+            <OurBlog/>
         </div>
     );
 };

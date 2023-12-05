@@ -1,0 +1,20 @@
+[
+    {
+        "id" : "1",
+        "image" : "https://i.postimg.cc/zf5bwfDT/blog-1.png",
+        "title" : "Troubleshooting Tech Woes: A Guide to Common Computer Issues",
+        "desc" : "Identify and solve everyday computer problems with this comprehensive troubleshooting guide."
+    },
+    {
+        "id" : "2",
+        "image" : "https://i.postimg.cc/Dw3dDnyw/blog-2.png",
+        "title" : "The Art of Maintenance: Keeping Your Computer in Top Shape",
+        "desc" : "Learn the importance of regular maintenance to ensure your computer stays in optimal condition."
+    },
+    {
+        "id" : "3",
+        "image" : "https://i.postimg.cc/7Z4tzgz9/blog-3.png",
+        "title" : "Demystifying Computer Repair: DIY Fixes for Everyday Problems",
+        "desc" : "Learn step-by-step do-it-yourself solutions for common computer issues, making repairs accessible for everyone."
+    }
+]

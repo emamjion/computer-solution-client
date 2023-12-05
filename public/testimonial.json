@@ -11,21 +11,21 @@
         "image" : "https://i.postimg.cc/htSSHvyp/user-4.png",
         "name" : "Enima Islam",
         "profession" : "Student",
-        "speech" : "Frequent crashes and software glitches. Require a comprehensive software troubleshooting and repair."
+        "speech" : "Interested in upgrading RAM and installing a larger SSD for improved performance."
     },
     {
         "id" : "3",
         "image" : "https://i.postimg.cc/MGVdVZxJ/user-3.png",
         "name" : "Kulsum Jahan",
         "profession" : "Advocate",
-        "speech" : "Accidentally deleted important files. Need assistance with data recovery as soon as possible."
+        "speech" : "Frequent crashes and software glitches. Require a comprehensive software troubleshooting and repair."
     },
     {
         "id" : "4",
         "image" : "https://i.postimg.cc/FKV0hYNz/user-2.png",
         "name" : "Jahanara Khanom",
         "profession" : "Doctor",
-        "speech" : "Interested in upgrading RAM and installing a larger SSD for improved performance."
+        "speech" : "Accidentally deleted important files. Need assistance with data recovery as soon as possible."
     },
     {
         "id" : "5",

@@ -12,7 +12,7 @@ const Testimonial = () => {
     }, [])
     
     return (
-        <section className='py-8 md:py-24 md:px-10 px-7 md:mx-[240px]'>
+        <section className='py-8 md:py-12 md:px-16 px-7 md:mx-[240px] bg-[#f3f3f3]'>
             <div>
                 <h3 className='text-xl font-medium mb-3 text-[#a1c058]'>Testimonial</h3>
                 <h1 className='text-3xl font-bold'>What Say Our Happy Customers<span className='text-[#a1c058]'>.</span></h1>
@@ -28,7 +28,7 @@ const Testimonial = () => {
                     {
                         testimonials.map(tes => <SwiperSlide
                             key={tes.id}
-                            className='p-6 cursor-pointer'
+                            className='p-10 cursor-pointer bg-[#fff]'
                         >
                             <div className='flex items-center justify-center flex-col'>
                                 <div className='text-center'>
