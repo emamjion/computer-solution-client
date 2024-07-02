@@ -1,0 +1,14 @@
+.watch-bg {
+  background-image: url("../../../assets/images/video_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 600px; */
+  padding: 120px 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .watch-bg {
+    padding: 60px 0px;
+  }
+}

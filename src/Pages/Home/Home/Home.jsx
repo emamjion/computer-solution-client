@@ -1,13 +1,14 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import Brands from '../Brands/Brands';
-import WhoWe from '../WhoWe/WhoWe';
+import ChooseUs from '../ChooseUs/ChooseUs';
 import HomeService from '../HomeService/HomeService';
+import OurBlog from '../OurBlog/OurBlog';
 import OurProcess from '../OurProcess/OurProcess';
 import OurTeam from '../OurTeam/OurTeam';
-import ChooseUs from '../ChooseUs/ChooseUs';
 import Testimonial from '../Testimonial/Testimonial';
-import OurBlog from '../OurBlog/OurBlog';
+import WatchVideo from '../WatchVideo/WatchVideo';
+import WhoWe from '../WhoWe/WhoWe';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <WhoWe/>
             <HomeService/>
             <OurProcess/>
+            <WatchVideo/>
             <OurTeam/>
             <ChooseUs/>
             <Testimonial/>
